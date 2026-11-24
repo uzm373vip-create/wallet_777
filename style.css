@@ -1,0 +1,334 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 50px;
+
+
+}
+
+.logo {
+    color: white;
+
+}
+
+.sing {
+    display: flex;
+
+    gap: 30px;
+}
+
+.yuqori-1 {
+    background-color: transparent;
+    color: white;
+    border: none;
+
+}
+
+.yuqori-2 {
+    background-color: #BFAFF2;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    width: 130px;
+
+}
+
+
+.bosh-s {
+    width: 90%;
+    display: flex;
+    gap: 115px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+
+
+}
+
+.bosh {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.saas {
+    color: white;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.this {
+    opacity: 0.4;
+    color: white;
+}
+
+.get {
+    padding: 15px;
+    background-color: #F8D57E;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+
+}
+
+.logo-s {
+
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.rasm-2 {
+
+    width: 900px;
+}
+
+.saxisa-3 {
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+.saxifa-div {
+    border-radius: 30px;
+    background-color: wheat;
+    width: 1080px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rasm3 {
+    width: 900px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-top: 0px;
+}
+
+.otalar {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.bola {
+    border: 1px solid black;
+    width: 200px;
+    height: 500px;
+    text-align: center;
+}
+
+.rasm-icon {
+    color: white;
+    text-align: center;
+}
+
+.icon-p {
+    opacity: 0.4;
+    text-align: center;
+
+    color: white;
+}
+
+.xabar-s {
+    background-color: #BFAFF2;
+    width: 1080px;
+    height: 460px;
+    margin-left: 285px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.xabar-div {
+    padding: 100px;
+}
+
+.mant.xabar {
+    font-size: 30px;
+    font-weight: 900
+}
+
+.q-bola {
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.jonny {
+    opacity: 0.4;
+}
+
+.d-1 {
+    width: 100%;
+    display: flex;
+    gap: 250px;
+    margin-top: 100px;
+    /* margin-left: 280px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.les {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.salom {
+    color: white;
+    opacity: 0.5;
+}
+
+.mayda-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer {
+    align-items: center;
+    justify-content: center;
+    margin-right: 180px;
+    margin-top: 100px;
+
+}
+
+.foter-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-left: 100px;
+
+}
+
+
+.foter-soz {
+    color: white;
+    display: flex;
+    gap: 16px;
+    margin-top: 25px;
+}
+
+label {
+    color: white;
+    display: flex;
+
+
+}
+
+input {
+    border: none;
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 10px;
+    width: 250px;
+    color: white;
+}
+
+.wallet {
+    color: white;
+    margin-left: 250px;
+}
+
+.rasm-333 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media (max-width: 500px) {
+
+    /* hero */
+    .sing {
+        display: none;
+
+    }
+
+    .bosh-s {
+        flex-direction: column;
+
+    }
+
+    .bosh {
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .this {
+        width: 335px;
+
+    }
+
+    .saas {
+        font-size: 40px;
+        text-align: center;
+        width: 335px;
+    }
+
+    .bosh-rasm1 {
+        width: 335px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: #000;
+        padding: 5px;
+        border-radius: 20px;
+
+    }
+
+    .rasm-2 {
+        display: none;
+
+    }
+
+    .rasm-333 {
+        display: block;
+        padding-left: 140px;
+
+
+    }
+
+    .saxifa-div {
+        width: 400px;
+        height: 250px;
+       margin-left: -175px;
+    }
+
+    .rasm3 {
+        width: 300px;
+        height: 180px;
+        margin-top: 70px;
+        margin-left: -50px;
+    }
+    .otalar{
+        margin-left: 100px;
+        
+        gap:10px;
+    }
+    .xabar-div{
+        width: 300px;
+    }
+}
